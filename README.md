@@ -34,7 +34,7 @@ O sistema deverá apresentar informações sobre celulares usados revendidos pel
   - [ ] O sistema deverá exibir acessórios à venda pela assistência técnica. Informações como tipo do acessório, fotos e informações deverão ser exibidas. 
 
 ### :page_facing_up: Serviços de software 
-- [ ] O sistema deverá permitir que o usuário escolha uma lista de software a ser instalado no aparelho. 
+- [X] O sistema deverá permitir que o usuário escolha uma lista de software a ser instalado no aparelho. 
 
 ### Acompanhamento de serviço 
 - [ ] O sistema deverá permitir o cliente inserir seu CPF e o sistema deverá retornar informações sobre a situação do serviço para seu celular. 
@@ -42,14 +42,14 @@ O sistema deverá apresentar informações sobre celulares usados revendidos pel
 ## :warning: Atenção
 Você deverá utilizar apenas HTML para criar sua página.  
 Você deverá utilizar pelo menos uma das TAGs HTML abaixo listadas: 
-- [ ] `div`
+- [X] `div`
 - [ ] `table` 
-- [ ] `br` 
-- [ ] `img` 
-- [ ] `p` 
-- [ ] `h1` 
-- [ ] `a` 
+- [X] `br` 
+- [X] `img` 
+- [X] `p` 
+- [X] `h1` 
+- [X] `a` 
 - [ ] `ol` ou `ul` 
-- [ ] `form` 
+- [X] `form` 
 - [ ] `input`, `checkbox` & `radio`
-- [ ] `select` 
+- [X] `select` 
