@@ -21,14 +21,14 @@ Por meio de linguagem HTML (apenas HTML) crie uma página para que o cliente de 
 
 ### :page_facing_up: Revenda de celular usado 
 O sistema deverá apresentar informações sobre celulares usados revendidos pela assistência técnica. Cada celular deverá ter as seguintes informações:
-  - [ ] Modelo 
-  - [ ] Cor 
-  - [ ] Especificações 
-  - [ ] Nota fiscal de compra 
-  - [ ] Foto do aparelho 
-  - [ ] Estado de conservação
-  - [ ] Acessórios inclusos 
-  - [ ] Valor 
+  - [X] Modelo 
+  - [X] Cor 
+  - [X] Especificações 
+  - [X] Nota fiscal de compra 
+  - [X] Foto do aparelho 
+  - [X] Estado de conservação
+  - [X] Acessórios inclusos 
+  - [X] Valor 
 
 ### :page_facing_up: Revenda de acessórios 
   - [ ] O sistema deverá exibir acessórios à venda pela assistência técnica. Informações como tipo do acessório, fotos e informações deverão ser exibidas. 
@@ -43,13 +43,13 @@ O sistema deverá apresentar informações sobre celulares usados revendidos pel
 Você deverá utilizar apenas HTML para criar sua página.  
 Você deverá utilizar pelo menos uma das TAGs HTML abaixo listadas: 
   - [X] `div`
-  - [ ] `table` 
+  - [X] `table` 
   - [X] `br` 
   - [X] `img` 
   - [X] `p` 
   - [X] `h1` 
   - [X] `a` 
-  - [ ] `ol` ou `ul` 
+  - [X] `ol` ou `ul` 
   - [X] `form` 
-  - [ ] `input`, `checkbox` & `radio`
+  - [X] `input`, `checkbox` & `radio`
   - [X] `select` 
