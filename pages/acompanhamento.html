@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serviços de software | Techfix</title>
+    <title>Acompanhamento de serviço | Techfix</title>
     <link rel=icon href="../assets/icon.svg" sizes="any" type="image/svg+xml">
 </head>
 </head>
@@ -25,24 +25,14 @@
     <br>
     <main>
         <header>
-            <h1>Serviços de software</h1>
+            <h1>Acompanhamento de serviço</h1>
         </header>
-        <form action="dados.html" method="POST" enctype="multipart/form-data">
-            <fieldset>
-                <legend>Opções</legend>
-                <br>
-                <div>
-                    <input type="checkbox" id="whatsapp" name="whatsapp" value="whatsapp">
-                    <label for="whatsapp">WhatsApp</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="instagram" name="instagram" value="instagram">
-                    <label for="instagram">Instagram</label>
-                </div>
-                <br>
-                <br>
-                <button type="submit">Solicitar</button>
-            </fieldset>
+        <form action="info.html" method="POST" enctype="multipart/form-data">
+            <label for="cpf">
+                CPF:
+                <input type="text" id="cpf" name="cpf" placeholder="CPF do solicitante">
+            </label>
+            <button type="submit">Verificar</button>
         </form>
     </main>
 </body>
