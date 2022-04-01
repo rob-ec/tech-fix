@@ -31,7 +31,7 @@ O sistema deverá apresentar informações sobre celulares usados revendidos pel
   - [X] Valor 
 
 ### :page_facing_up: Revenda de acessórios 
-  - [ ] O sistema deverá exibir acessórios à venda pela assistência técnica. Informações como tipo do acessório, fotos e informações deverão ser exibidas. 
+  - [X] O sistema deverá exibir acessórios à venda pela assistência técnica. Informações como tipo do acessório, fotos e informações deverão ser exibidas. 
 
 ### :page_facing_up: Serviços de software 
   - [X] O sistema deverá permitir que o usuário escolha uma lista de software a ser instalado no aparelho. 
