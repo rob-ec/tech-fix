@@ -12,12 +12,12 @@ Por meio de linguagem HTML (apenas HTML) crie uma página para que o cliente de 
   - [ ] O sistema deverá apresentar uma tela inicial contendo os links para cada página abaixo. Ainda na home deverão ser apresentadas informações sobre a assistência técnica como telefone, email, Whatsapp, redes sociais, etc. 
 
 ### :page_facing_up: Cadastro de uma ordem de serviço 
-  - [ ] **Nome do cliente:** O sistema deverá permitir que o cliente entre com seu nome. 
-  - [ ] **CPF do cliente:** O sistema deverá permitir que o cliente entre com seu CPF.
-  - [ ] **Endereço do cliente:** O sistema deverá permitir que o cliente entre com seu endereço (logradouro, CEP, Cidade e estado). 
-  - [ ] **Modelo do celular:** O usuário deverá escolher o tipo do seu celular por meio de uma lista. 
-  - [ ] **Relato de defeito:** O sistema deverá permitir o cliente inserir um texto informando o defeito que seu celular se encontra. 
-  - [ ] **Imagem do aparelho:** O sistema deverá permitir o cliente inserir uma foto do aparelho 
+  - [X] **Nome do cliente:** O sistema deverá permitir que o cliente entre com seu nome. 
+  - [X] **CPF do cliente:** O sistema deverá permitir que o cliente entre com seu CPF.
+  - [X] **Endereço do cliente:** O sistema deverá permitir que o cliente entre com seu endereço (logradouro, CEP, Cidade e estado). 
+  - [X] **Modelo do celular:** O usuário deverá escolher o tipo do seu celular por meio de uma lista. 
+  - [X] **Relato de defeito:** O sistema deverá permitir o cliente inserir um texto informando o defeito que seu celular se encontra. 
+  - [X] **Imagem do aparelho:** O sistema deverá permitir o cliente inserir uma foto do aparelho 
 
 ### :page_facing_up: Revenda de celular usado 
 O sistema deverá apresentar informações sobre celulares usados revendidos pela assistência técnica. Cada celular deverá ter as seguintes informações:

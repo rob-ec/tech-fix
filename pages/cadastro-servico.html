@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem de serviço | Techfix</title>
+    <link rel=icon href="../assets/icon.svg" sizes="any" type="image/svg+xml">
+</head>
+</head>
+<body>
+    <br>
+    <header>
+        <a href="../index.html"><img src="../assets/logo.svg" alt="Logo Techflix" width="300px"></a>
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="cadastro-servico.html">Cadastrar Ordem De Serviço</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <main>
+        <header>
+            <h1>Cadastro de uma ordem de serviço</h1>
+        </header>
+        <form action="dados.html" method="POST" enctype="multipart/form-data">
+            <label for="name">
+                Nome:
+                <input type="text" name="name" id="name" placeholder="Seu nome">
+            </label>
+            <br>
+            <br>
+            <label for="cpf">
+                CPF:
+                <input type="text" name="cpf" id="cpf" placeholder="Somente números">
+            </label>
+            <br>
+            <br>
+            <label for="address">Endereço:</label>
+            <br>
+            <br>
+            <div id="address">
+                <input type="text" name="address-street" id="address-street" placeholder="Logradouro">
+                <input type="number" name="address-number" id="address-number" placeholder="Nº">
+                <input type="text" name="address-district" id="address-district" placeholder="Bairro">
+                <br>
+                <input type="text" name="address-cep" id="address-cep" placeholder="CEP">
+                <input type="text" name="address-city" id="address-city" placeholder="Cidade">
+                <select name="address-state" id="address-state">
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+                
+            </div>
+            <br>
+            <br>
+            <label for="smartphone-model">
+                Modelo do celular:
+                <select name="smartphone-model" id="smartphone-model">
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="samsung-galaxy-j5">Samsung Galaxy J5</option>
+                    <option value="iphone-11">iPhone 11</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="smartphone-problem">Descrição do problema:</label><br>
+            <textarea name="smartphone-problem" id="smartphone-problem" cols="50" rows="10"></textarea>
+            <br>
+            <br>
+            <label for="smartphone-photo">
+                Foto do celular:
+                <input type="file" accept="image/*">
+            </label>
+            <br>
+            <br>
+            <button type="submit">Solicitar</button>
+        </form>
+    </main>
+</body>
+</html>
