@@ -4,12 +4,17 @@ Repositório criado para armazenar os códigos criados no trabalho 001 da Discip
 _Um trabalho de Robson M. Gomes_   
 _<robson.mesquita56@gmail.com>_
 
+>  :speech_balloon: **Info**
+>
+> Em [index.html](index.html) o link para WhatsApp não funciona corretamente pois o número de exemplo utilizado (99999999999) > não possui conta na plataforma, para o correto funcionamento dessa funcionalidade na propriedade _href_ do link deve ser
+> colocado no parâmetro _phone_ da _url_ um valor de telefone válido no formato `DDD` + `Telefone` (somente números).
+
 ## :clipboard: Requisitos
 
 ### :page_facing_up: Assistência Técnica de Celular
 Por meio de linguagem HTML (apenas HTML) crie uma página para que o cliente de uma assistência técnica possa informar dados relativos ao seu celular. 
 
-  - [ ] O sistema deverá apresentar uma tela inicial contendo os links para cada página abaixo. Ainda na home deverão ser apresentadas informações sobre a assistência técnica como telefone, email, Whatsapp, redes sociais, etc. 
+  - [X] O sistema deverá apresentar uma tela inicial contendo os links para cada página abaixo. Ainda na home deverão ser apresentadas informações sobre a assistência técnica como telefone, email, Whatsapp, redes sociais, etc. 
 
 ### :page_facing_up: Cadastro de uma ordem de serviço 
   - [X] **Nome do cliente:** O sistema deverá permitir que o cliente entre com seu nome. 
