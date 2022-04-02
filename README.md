@@ -6,7 +6,7 @@ _<robson.mesquita56@gmail.com>_
 
 >  :speech_balloon: **Info**
 >
-> Em [index.html](index.html) o link para WhatsApp não funciona corretamente pois o número de exemplo utilizado (99999999999) > não possui conta na plataforma, para o correto funcionamento dessa funcionalidade na propriedade _href_ do link deve ser
+> Em [index.html](index.html) o link para WhatsApp não funciona corretamente pois o número de exemplo utilizado (99999999999) não possui conta na plataforma, para o correto funcionamento dessa funcionalidade na propriedade _href_ do link deve ser
 > colocado no parâmetro _phone_ da _url_ um valor de telefone válido no formato `DDD` + `Telefone` (somente números).
 
 ## :clipboard: Requisitos
